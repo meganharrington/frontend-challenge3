@@ -1,0 +1,118 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+/** Header Info **/
+.status{
+  background-color: #383838;
+  margin: 0 auto;
+  width: 375px;
+  display: block;
+}
+nav{
+  margin: 0 auto;
+  width: 375px;
+  font-family: 'Roboto', sans-serif;
+  height: 44px;
+  font-weight:300;
+  color: #ACEBE7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #383838;}
+
+h1{
+  display: inline;
+  text-align: center;
+  padding: 0px 50px;
+  font-size: 22px;}
+
+.arrow {
+  float: left;
+  padding-left: 15px;}
+
+.filter {
+  float: right;
+  padding-right: 15px;}
+
+/** All Content Except Header **/
+  .container {
+    margin: 0 auto;
+    width: 375px;
+    border-top: 50px #000000;
+    background-color: #383838;
+  }
+
+  .NextBus{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    height: 50px;
+    font-weight:300;
+    color: #ACEBE7;
+    text-align: center;
+    padding: 15px 0px 15px;}
+
+    /** Timetable Section**/
+
+article{background-color: #ffffff;
+border-bottom:1px solid #ACEBE7;}
+
+h2{font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 0px;
+color: #383838;}
+
+/** Eastbond Section **/
+article{padding-bottom: 10px;}
+
+.number{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: left;
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.arrival{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  float: right;
+  display: inline-block;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.destination{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: left;
+  display: block;
+  padding-top: 5px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.frequency{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: left;
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 12px;
+}
+.Next2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  float: right;
+  display: inline-block;
+  padding-top: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+}
